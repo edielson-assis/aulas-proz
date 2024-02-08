@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+header {
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+span {
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around; 
+    gap: 3rem; 
+    list-style-type: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+h1 {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: left;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#mensagem {
+    margin-bottom: 2rem;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.container-imagens {
+    box-shadow: 4px 4px 13px 0 #688a7c;
+    border-radius: 10px;
+}
+
+.container p {
+    padding-left: 2rem;
+    font-size: 1.1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    margin-top: 1rem;
+}
+
+footer span {
+    color: #000000;
+    margin-right: 1rem;
+}
+
+footer ul {
+    gap: 3rem; 
+    list-style-type: none;
+}
+
+footer p {
+    font-weight: 600;
+}
+
+footer ul li {
+    font-weight: 600;
+}
+
+footer ul li:hover {
+    cursor: pointer;
+}
